@@ -29,7 +29,7 @@
     {
       "id": "neoforge-loader",
       "name": "NeoForge Loader",
-      "type": "NeoForge",
+      "type": "Forge",
       "description": "Cargador de mods NeoForge para 1.21.1",
       "version": "21.1.65", 
       "artifacts": []
