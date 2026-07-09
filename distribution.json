@@ -42,10 +42,10 @@
       "version": "1.0.0",
       "artifacts": [
         {
-          "url": "https://raw.githubusercontent.com/nazbd03/launcher_files/refs/heads/main/Jade-1.21.1-NeoForge-15.10.5.jar",
+          "url": "https://raw.githubusercontent.com/nazbd03/launcher_files/main/Jade-1.21.1-NeoForge-15.10.5.jar",
           "path": "mods/Jade-1.21.1-NeoForge-15.10.5.jar",
-          "size": 709000,
-          "MD5": "da39a3ee5e6b4b0d3255bfef95601890"
+          "size": 743122,
+          "MD5": "449080b064be48f932f939e80e909da2"
         }
       ]
     }
