@@ -1,0 +1,53 @@
+{
+  "version": "1.0.0",
+  "discord": {
+    "clientId": "",
+    "smallImageKey": ""
+  },
+  "servers": [
+    {
+      "id": "mi-servidor-serie",
+      "name": "Mi Serie de Minecraft",
+      "description": "Servidor oficial de la serie.",
+      "icon": "https://images.unsplash.com/photo-1607604276583-eef5d076aa5f?w=128",
+      "address": "TU_IP_DEL_SERVIDOR:PUERTO",
+      "discord": {
+        "shortDescription": "Jugando la serie"
+      },
+      "mainServer": true
+    }
+  ],
+  "submodules": [
+    {
+      "id": "minecraft-1-21-1",
+      "name": "Minecraft 1.21.1",
+      "type": "VersionManifest",
+      "description": "Base de Minecraft 1.21.1",
+      "version": "1.21.1",
+      "artifacts": []
+    },
+    {
+      "id": "neoforge-loader",
+      "name": "NeoForge Loader",
+      "type": "NeoForge",
+      "description": "Cargador de mods NeoForge para 1.21.1",
+      "version": "21.1.65", 
+      "artifacts": []
+    },
+    {
+      "id": "mods-obligatorios",
+      "name": "Pack de Mods",
+      "type": "Required",
+      "description": "Todos los mods necesarios para entrar.",
+      "version": "1.0.0",
+      "artifacts": [
+        {
+          "url": "https://cdn.discordapp.com/attachments/1524618109259092019/1524618620049817760/Jade-1.21.1-NeoForge-15.10.5.jar?ex=6a50673d&is=6a4f15bd&hm=82a3a167f5d61eba581674757a34966c6f2673e8d8debe39f71a02a14115691d&",
+          "path": "mods/Jade-1.21.1-NeoForge-15.10.5.jar",
+          "size": 709000,
+          "MD5": "da39a3ee5e6b4b0d3255bfef95601890"
+        }
+      ]
+    }
+  ]
+}
