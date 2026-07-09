@@ -1,9 +1,9 @@
 {
-  "version": "1.0.0",
-  "discord": {
-    "clientId": "",
-    "smallImageKey": ""
-  },
+  "id": "mi-serie-1211",
+  "name": "Mi Serie de Minecraft",
+  "version": "1.21.1",
+  "type": "NeoForge",
+  "mainServer": "mi-servidor-serie",
   "servers": [
     {
       "id": "mi-servidor-serie",
@@ -11,41 +11,31 @@
       "description": "Servidor oficial de la serie.",
       "icon": "https://images.unsplash.com/photo-1607604276583-eef5d076aa5f?w=128",
       "address": "TU_IP_DEL_SERVIDOR:PUERTO",
+      "type": "NeoForge",
+      "version": "1.21.1",
       "discord": {
         "shortDescription": "Jugando la serie"
       },
-      "mainServer": true
-    }
-  ],
-  "submodules": [
-    {
-      "id": "minecraft-1-21-1",
-      "name": "Minecraft 1.21.1",
-      "type": "VersionManifest",
-      "description": "Base de Minecraft 1.21.1",
-      "version": "1.21.1",
-      "artifacts": []
-    },
-    {
-      "id": "neoforge-loader",
-      "name": "NeoForge Loader",
-      "type": "Forge",
-      "description": "Cargador de mods NeoForge para 1.21.1",
-      "version": "21.1.65", 
-      "artifacts": []
-    },
-    {
-      "id": "mods-obligatorios",
-      "name": "Pack de Mods",
-      "type": "Required",
-      "description": "Todos los mods necesarios para entrar.",
-      "version": "1.0.0",
-      "artifacts": [
+      "modules": [
         {
-          "url": "https://raw.githubusercontent.com/nazbd03/launcher_files/main/Jade-1.21.1-NeoForge-15.10.5.jar",
-          "path": "mods/Jade-1.21.1-NeoForge-15.10.5.jar",
-          "size": 743122,
-          "MD5": "449080b064be48f932f939e80e909da2"
+          "id": "neoforge-version",
+          "name": "NeoForge 21.1.65",
+          "type": "Forge",
+          "version": "21.1.65",
+          "required": true,
+          "artifacts": []
+        },
+        {
+          "id": "mods-obligatorios",
+          "name": "Jade Mod",
+          "type": "File",
+          "required": true,
+          "artifact": {
+            "url": "https://raw.githubusercontent.com/nazbd03/launcher_files/main/Jade-1.21.1-NeoForge-15.10.5.jar",
+            "path": "mods/Jade-1.21.1-NeoForge-15.10.5.jar",
+            "size": 743122,
+            "MD5": "449080b064be48f932f939e80e909da2"
+          }
         }
       ]
     }
